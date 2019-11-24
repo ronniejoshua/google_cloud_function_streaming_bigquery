@@ -18,9 +18,9 @@ def upload_bigquery_chunks(data_list, bigquery_extractor, bq_table_id, chunk_mb=
 
 
 def bq_data_uploader_stream(request):
-    bq_project_id = 'long-grin-524'
-    bq_dataset = 'Ronnie_Testing_Dataset'
-    bq_table_id = "bq_streaming_cloud_function_table_3"
+    bq_project_id = 'my-project-id'
+    bq_dataset = 'my-dataset-id'
+    bq_table_id = 'my-table-id'
 
     data_list = list()
     # 1MB = 1 * (10**6)
