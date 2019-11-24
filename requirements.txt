@@ -1,0 +1,7 @@
+# Function dependencies, for example:
+# package>=version
+google-api-core
+google-cloud
+google-cloud-storage
+google-cloud-bigquery
+pympler
